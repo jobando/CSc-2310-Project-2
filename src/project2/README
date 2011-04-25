@@ -1,0 +1,20 @@
+Clock Testing
+Joel Obando
+04-19-2011
+Project 2  For CSc 2310: Introduction to programming
+
+This program tests the behavior of the Clock class. By instantiating a clock
+the user has the ability to test every method of the clock class. The testing
+class is called TestClass. The user will enter every input trough this testing
+ class. The input will be verified and then evaluated. The class SimpleIO.java
+from JAVA PROGRAMMING: FROM THE BEGINNING, by K. N. King has been used
+to easily acquire user input.
+
+The clock class stores time in hours, minutes, seconds format. By default all
+the clock operations are done in 23 hour mode. It has also the ability to
+toggle from 12 hour format to 24 hour format.
+
+To execute the program in jvm by command line:
+java -jar "{\folder path\}Project2.jar"
+
+There are no parameters needed and none will be evaluated.
