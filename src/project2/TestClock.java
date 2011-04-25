@@ -15,7 +15,8 @@ package project2;
 
 public class TestClock {
 
-    private static Clock testingClock; //class variable of clock to be tested.
+    //class variable of clock to be tested.
+    private static Clock testingClock;
 
     /**
      *Start the testing of the clock class. It will not until the users
@@ -109,10 +110,12 @@ public class TestClock {
                 if (validateNumber(hours, 'h')) {
                     break;
                 }
-                System.out.println("Input must be between 0 and 23; please try again.");
+                System.out.println(
+                        "Input must be between 0 and 23; please try again.");
                 continue;
             } catch (Exception e) {
-                System.out.println("Input was not an integer; please try again.");
+                System.out.println(
+                        "Input was not an integer; please try again.");
                 continue;
             }
         }
@@ -124,10 +127,12 @@ public class TestClock {
                 if (validateNumber(minutes, 'm')) {
                     break;
                 }
-                System.out.println("Input must be between 0 and 59; please try again.");
+                System.out.println(
+                        "Input must be between 0 and 59; please try again.");
                 continue;
             } catch (Exception e) {
-                System.out.println("Input was not an integer; please try again.");
+                System.out.println(
+                        "Input was not an integer; please try again.");
                 continue;
             }
         }
@@ -139,10 +144,12 @@ public class TestClock {
                 if (validateNumber(seconds, 's')) {
                     break;
                 }
-                System.out.println("Input must be between 0 and 59; please try again.");
+                System.out.println(
+                        "Input must be between 0 and 59; please try again.");
                 continue;
             } catch (Exception e) {
-                System.out.println("Input was not an integer; please try again.");
+                System.out.println(
+                        "Input was not an integer; please try again.");
                 continue;
             }
         }
@@ -160,8 +167,9 @@ public class TestClock {
     }
 
     /**
-     * Verifies all user input. It makes sure that all input is either a, c, q,
-     * r, s, or t and calls the corresponding methods. Input can be in lower or
+     * Verifies all user input. It makes sure that all 
+     * input is either a, c, q, r, s, or t
+     * and calls the corresponding methods. Input can be in lower or
      * upper case.
      * @param input command to be executed.
      */
